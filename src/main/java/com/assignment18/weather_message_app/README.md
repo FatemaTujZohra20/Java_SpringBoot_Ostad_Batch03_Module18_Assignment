@@ -5,3 +5,5 @@ When a client sends a request to the `/weather` endpoint, it first clears the **
 which permits public access. The `Controller` then receives the request and calls the injected service to retrieve
 the seasonal greeting, wrapping the result in a `WeatherResponse` record. Finally, 
 this data is serialized into a JSON object and delivered back to the client as a clean, structured response.
+
+
